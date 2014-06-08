@@ -4,27 +4,12 @@
 # Then in the menu press "Run Modude"
 #DO NOT MESS WITH THE PROGRAM
 #This is a change
-#this is another change...  
 import easygui, random, datetime
 correct = 0
 incorrect = 0
 incorrectproblems = []
 problemsuserdid = 0
 RightWrongB = False
-#def AddMultprintproblem(level, Operation):
- #   value1 = random.randint(0, 5)
-  #  if level == "1":
-   #     answer = add1level1 + add2level1
-    #    answerusergot = easygui.enterbox(title = "Math flash", msg = "    "+ str(add1level1) + "\n+ " + str(add2level1))
-   # if level == "2":
-    #    answer = add1level2 + add2level2
-      #  answerusergot = easygui.enterbox(title = "Math flash", msg = "    " + str(add1level2) + "\n+" + "  " + str(add2level2))
-   # if level == "3":
-    #        answer = add1level3 + add2level3
-    #        answerusergot = easygui.enterbox(title = "Math flash", msg = "    "+ str(add1level3) + "\n+ " + str(add2level3))
-     #   if level == "4":
-     #       answer = add1level3 + add2level3
-     #       answerusergot = easygui.enterbox(title = "Math flash", msg = "    "+ str(add1level4) + "\n+ " + str(add2level4))
 def Change(name, level, operation, correct, incorrect, problemsuserdid):
     timenow = datetime.datetime.now()
     things = open(name + ".txt", "a")
