@@ -1,7 +1,0 @@
-On 2014-06-19 11:20:05.473000
- Boston did Division level 3
- They got 1 problems right
- and 0 problems wrong
- the problems they got wrong were:
-
-
