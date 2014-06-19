@@ -3,7 +3,6 @@
 # Press the button that says "run"
 # Then in the menu press "Run Modude"
 #DO NOT MESS WITH THE PROGRAM
-#This is a change
 import easygui, random, datetime
 correct = 0
 incorrect = 0
@@ -199,13 +198,13 @@ def askingquestion(operation, level, name, correct, incorrect, problemsuserdid, 
             first = notanswer
             secound = div1level3
             answer = div2level3
-            answer = div1level3 * div2level3
+
         if level == "4":
             notanswer = div1level4 * div2level4
             first = notanswer
             secound = div1level4
             answer = div2level4
-            answer = div1level4 * div2level4
+
         answerusergot = easygui.enterbox(title = "Math flash", msg = "    "+ str(first) + "\n/ " + str(secound))
 
     elif operation == "Multiplication":
